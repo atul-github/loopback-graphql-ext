@@ -16,3 +16,9 @@ var graphqlExt = require('loopback-graphql-ext');
 graphqlExt.init(app); //app is loopback application
 ```
 
+* Run loopback application as you usually do
+* Access GraphQL end point on
+
+```
+http://localhost:3000/graphql
+```
