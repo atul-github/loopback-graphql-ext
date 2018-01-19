@@ -1,0 +1,41 @@
+{
+  "dependencies": {
+    "async": "^2.5.0",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.12.3",
+    "loopback": "^3.0.0"
+  },
+  "description": "graphQL extension for loopback",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {},
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "gitHead": "00cf01f901e5ff20f3a576f10f41779e70cf536f",
+  "homepage": "https://github.com/atul-github/loopback-graphql-ext#readme",
+  "keywords": [
+    "graphQL",
+    "loopback",
+    "extension"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "atul",
+      "email": "atul_pandit@yahoo.com"
+    }
+  ],
+  "name": "loopback-graphql-ext",
+  "optionalDependencies": {},
+  "publishConfig": {
+    "export-tests": true
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atul-github/loopback-graphql-ext.git"
+  },
+  "version": "0.0.1"
+}
