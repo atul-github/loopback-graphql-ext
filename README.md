@@ -28,7 +28,7 @@ http://localhost:3000/graphql
 * where filter
 * fields filter
 
-Refer to [Example](./README.md)
+Refer to [Example](./EXAMPLE.md)
 
 
 ### Limitations
