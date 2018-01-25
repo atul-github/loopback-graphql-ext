@@ -121,8 +121,20 @@ node .
     }
   }
 }
+```
+
+### Example 7 - using skip 
 
 ```
+  Customers{
+    find(filter:{where:{gt:{id:1 }}, skip : 1} ) {
+      id
+      name
+      age
+    }
+  }
+```
+
 
 
 <b>Note: See the limitation. gt is used before property which is not similar to loopback. </b>
