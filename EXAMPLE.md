@@ -58,13 +58,6 @@ node .
       id
       name
       age
-      billingAddress{
-        id
-        street
-        city
-        state
-        zipCode
-      }
     }
   }
 ```
@@ -76,13 +69,6 @@ node .
       id
       name
       age
-      billingAddress{
-        id
-        street
-        city
-        state
-        zipCode
-      }
     }
   }
 ```
@@ -95,14 +81,7 @@ node .
       id
       name
       age
-      billingAddress{
-        id
-        street
-        city
-        state
-        zipCode
-      }
-    }
+   }
   }
 ```
 <b>Note: See the limitation. gt is used before property which is not similar to loopback. </b>
@@ -114,13 +93,6 @@ node .
       id
       name
       age
-      billingAddress{
-        id
-        street
-        city
-        state
-        zipCode
-      }
     }
   }
 ```
@@ -133,17 +105,24 @@ node .
       id
       name
       age
-      billingAddress{
-        id
-        street
-        city
-        state
-        zipCode
-      }
     }
   }
 ```
 
+### Example 6 - using limit filter
+
+```
+{
+  Customers{
+    find(filter:{ limit:2, where:{gt:{age:20}}}){
+      id
+      name
+      age
+    }
+  }
+}
+
+```
 
 
 <b>Note: See the limitation. gt is used before property which is not similar to loopback. </b>
