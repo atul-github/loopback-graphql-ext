@@ -4,9 +4,11 @@ Executing queries on loopback models using GraphQL. This gives you intellisense 
 
 ## Installation
 
-* Download code from this side
-* npm install <b>git://github.com/atul-github/loopback-graphql-ext.git</b>
-* Copy code into node_modules\loopback-graphql-ext
+```
+npm install <b>git://github.com/atul-github/loopback-graphql-ext.git</b>
+
+```
+
 * Call init() before application starts (AND after loopback boot is over)
 
 ```
