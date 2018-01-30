@@ -5,7 +5,7 @@ Executing queries on loopback models using GraphQL. This gives you intellisense 
 ## Installation
 
 ```
-npm install <b>git://github.com/atul-github/loopback-graphql-ext.git</b>
+npm install git://github.com/atul-github/loopback-graphql-ext.git
 
 ```
 
