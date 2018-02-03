@@ -31,6 +31,7 @@ http://localhost:3000/graphql
 * fields filter
 * Limit filter
 * Skip filter
+* Order filter
 
 Refer to [Examples](./EXAMPLE.md)
 
@@ -43,6 +44,5 @@ Refer to [Examples](./EXAMPLE.md)
 
 * Making it component so you don't have to initialize from code
 * Include filter
-* Order filter
 * Mutation
 * Authentication/Authorization using Access Token
