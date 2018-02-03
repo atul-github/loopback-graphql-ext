@@ -135,7 +135,43 @@ node .
   }
 ```
 
+### Example 8 - using Order filter (single field)
+```
+  Customers{
+    find(filter:{order : name}) {
+      id
+      name
+      age
+    }
+  }
+```
+
+### Example 9 - using Order filter (multiple fields)
+```
+  Customers{
+    find(filter:{order : [name, age]}) {
+      id
+      name
+      age
+    }
+  }
+```
+
+### Example 10 - using Order filter (multiple fields)
+```
+  Customers{
+    find(filter:{order : [name_DESC, age]}) {
+      id
+      name
+      age
+    }
+  }
+```
+
+Note: See the use of DESC (descending). Not able to make like loopback ( order : [name desc, age] ) 
+
+  
 
 
-<b>Note: See the limitation. gt is used before property which is not similar to loopback. </b>
+
 
