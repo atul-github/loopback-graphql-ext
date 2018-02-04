@@ -26,7 +26,7 @@ graphqlExt.init(app); //app is loopback application
 node .
 ```
 
-## Open GraphiQL Editor at http://localhost:3000/graphql
+## Open GraphiQL Editor at http://localhost:3000/graphiql
 
 
 ### Examples
