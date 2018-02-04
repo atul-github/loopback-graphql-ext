@@ -22,7 +22,7 @@ graphqlExt.init(app); //app is loopback application
 * Access GraphQL end point on
 
 ```
-http://localhost:3000/graphql
+http://localhost:3000/graphiql
 ```
 
 ## What works so far
