@@ -1,6 +1,6 @@
 # loopback-graphql-ext (WIP)
 
-Executing queries on loopback models using GraphQL. This gives you intellisense while forming queries in GraphiQL. See [Examples](./EXAMPLE.md)
+Executing queries on loopback models using GraphQL. This gives you intellisense while forming queries in GraphiQL. See [Sample Project](https://github.com/atul-github/loopback-graphql-ext-example)
 
 ## Installation
 
@@ -33,7 +33,7 @@ http://localhost:3000/graphiql
 * Skip filter
 * Order filter
 
-Refer to [Examples](./EXAMPLE.md)
+Refer to [Examples](./EXAMPLE.md). It is implemented in [loopback sample project](https://github.com/atul-github/loopback-graphql-ext-example)
 
 
 ### Limitations
