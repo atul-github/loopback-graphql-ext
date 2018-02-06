@@ -45,4 +45,5 @@ Refer to [Examples](./EXAMPLE.md). It is implemented in [loopback sample project
 * Making it component so you don't have to initialize from code
 * Include filter
 * Mutation
+* Date type support
 * Authentication/Authorization using Access Token
